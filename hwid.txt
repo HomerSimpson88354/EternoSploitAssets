@@ -1,14 +1,5 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # krampus HWID whitelist
-# hosted at: https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/hwids.txt
-#
-# FORMAT:
-#   - One HWID per line
-#   - Lines starting with # are comments and are ignored
-#   - Blank lines are ignored
-#   - HWIDs are case-insensitive (stored lowercase internally)
-#   - You can add a comment after the HWID using # to label who it belongs to
-#
 # how to get hwid
 #   run this in yo shit for ur hwid
 #
@@ -16,19 +7,7 @@
 #       print(hwid)
 #       setclipboard(hwid)
 #
-#   They paste you the output, you add it here, push to GitHub.
-#   The script fetches this file fresh on every execution so changes
-#   take effect immediately — no need to redistribute the script.
-# ─────────────────────────────────────────────────────────────────────────────
-
 # ── whitelisted users ────────────────────────────────────────────────────────
 2F5A7EB9-A919-4215-B21F-F2305CFD11F0  # virck
 869FECC4-F5A1-4909-94EC-C9315300C7CE  # homer
-# ─────────────────────────────────────────────────────────────────────────────
-# NOTES:
-#   - If someone leaks the script, just remove their HWID from this file.
-#     Their copy stops working on next execution without any script update.
-#   - If the file cannot be fetched (no internet, GitHub down) the script
-#     fails closed — it will NOT run. This is intentional.
-#   - If an executor doesn't support getdeviceid() it gets blocked by default.
 # ─────────────────────────────────────────────────────────────────────────────
