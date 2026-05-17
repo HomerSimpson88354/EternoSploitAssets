@@ -9,10 +9,12 @@
 #   - HWIDs are case-insensitive (stored lowercase internally)
 #   - You can add a comment after the HWID using # to label who it belongs to
 #
-# HOW TO GET SOMEONE'S HWID:
-#   Have them run this one-liner in their executor console:
+# how to get hwid
+#   run this in yo shit for ur hwid
 #
-#       print(getdeviceid())
+#       local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
+#       print(hwid)
+#       setclipboard(hwid)
 #
 #   They paste you the output, you add it here, push to GitHub.
 #   The script fetches this file fresh on every execution so changes
