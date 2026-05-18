@@ -33,7 +33,7 @@ task.spawn(function()
 		warn("Failed to load House Teleport Tool:", err)
 	end
 end)
-wait(2.5)
+wait(4)
 task.spawn(function()
 	local ok, err = pcall(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/virckdev/jewish/refs/heads/main/ordinary.lua"))()
