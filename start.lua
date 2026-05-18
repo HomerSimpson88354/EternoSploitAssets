@@ -6,7 +6,7 @@ task.spawn(function()
 		warn("...", err)
 	end
 end)
-
+wait(0.1)
 task.spawn(function()
 	local ok, err = pcall(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
@@ -15,7 +15,7 @@ task.spawn(function()
 		warn("Failed to load Infinite Yield:", err)
 	end
 end)
-
+wait(0.01)
 task.spawn(function()
 	local ok, err = pcall(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/HomerSimpson88354/EternoSploitAssets/main/aesthetic.lua"))()
@@ -24,7 +24,7 @@ task.spawn(function()
 		warn("Failed to load Aesthetic Sky:", err)
 	end
 end)
-
+wait(0.1)
 task.spawn(function()
 	local ok, err = pcall(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/HomerSimpson88354/EternoSploitAssets/refs/heads/main/AestheticWater.lua"))()
@@ -33,7 +33,7 @@ task.spawn(function()
 		warn("Failed to load Aesthetic Water:", err)
 	end
 end)
-
+wait(0.01)
 task.spawn(function()
 	local ok, err = pcall(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/HomerSimpson88354/EternoSploitAssets/refs/heads/main/tele.lua"))()
