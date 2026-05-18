@@ -1,14 +1,5 @@
 task.spawn(function()
 	local ok, err = pcall(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/virckdev/jewish/refs/heads/main/ordinary.lua"))()
-	end)
-	if not ok then
-		warn("...", err)
-	end
-end)
-
-task.spawn(function()
-	local ok, err = pcall(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 	if not ok then
@@ -40,5 +31,14 @@ task.spawn(function()
 	end)
 	if not ok then
 		warn("Failed to load House Teleport Tool:", err)
+	end
+end)
+wait(0.1)
+task.spawn(function()
+	local ok, err = pcall(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/virckdev/jewish/refs/heads/main/ordinary.lua"))()
+	end)
+	if not ok then
+		warn("...", err)
 	end
 end)
