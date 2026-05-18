@@ -1,13 +1,2 @@
-# ─────────────────────────────────────────────────────────────────────────────
-# krampus HWID whitelist
-# how to get hwid
-#   run this in yo shit for ur hwid
-#
-#       local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
-#       print(hwid)
-#       setclipboard(hwid)
-#
-# ── whitelisted users ────────────────────────────────────────────────────────
-2F5A7EB9-A919-4215-B21F-F2305CFD11F0  # virck
-869FECC4-F5A1-4909-94EC-C9315300C7CE  # homer
-# ─────────────────────────────────────────────────────────────────────────────
+2F5A7EB9-A919-4215-B21F-F2305CFD11F0
+869FECC4-F5A1-4909-94EC-C9315300C7CE
