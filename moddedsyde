@@ -6258,7 +6258,7 @@ function syde:Init(library)
 				if v then
 					window.user.headshot.id.username.Text = '?'
 					window.user.headshot.id.displayname.Text = '@?'
-					window.user.headshot.Image = 'rbxassetid://139956761561818'
+					window.user.headshot.Image = 'rbxassetid://131914086307080'
 				else
 					SetUserInfo()
 				end
